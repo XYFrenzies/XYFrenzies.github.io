@@ -45,11 +45,35 @@ crossorigin="anonymous"></script>
       p
       {
         text-align: left;
-        font-size: "1";
+        font-size: "2";
       }
       p.Title
       {
         line-height: 1.8;
+      }
+      .pic1
+      {
+
+        width: 100%;
+        padding: 1px;
+      }
+      .pic2
+      {
+
+        width: 100%;
+        padding: 10px;
+      }
+      .pic3
+      {
+
+        width: 20%;
+        padding: 10px;
+      }
+      .row1
+      {
+        content: "";
+        clear: both;
+        display: table;
       }
     </style>
   </head>
@@ -166,12 +190,14 @@ crossorigin="anonymous"></script>
     <h1 class="text-white"><strong>About</strong></h1>
     <div class="row">
       <!-- ProfileImg-->
-      <div class="col-lg-5 ml-auto">
-         <img class="ProfileImg mb--5" src="Images/BenPhoto.jpg" alt="" width="300" height="400" style="border:5px solid black">
+      <div class="col-lg-2 ml-auto">
+         <img class="ProfileImg mb-lg-0" src="Images/BenPhoto.jpg" alt="" width="300" height="400" style="border:5px solid black">
       </div>
-      <div class = "col-lg-6 ml-auto">
-      <p class="pre-wrap lead text-white">Hello there. I am Ben. I am a aspiring programmer that specialises in producing and developing games.
+      <div class = "col-lg-8 ml-auto">
+      <p class="pre-wrap lead text-white">Hello there. I am Ben. I am a aspiring programmer that specialises in producing and developing game. 
+        
 Through my work, i specialise in modular systems which is on display throughout a games development. 
+        
 Within my projects, C++, C# and Unity are used in order to develop the complex game systems.
       </p>
     </div>
@@ -181,10 +207,17 @@ Within my projects, C++, C# and Unity are used in order to develop the complex g
 </div>
 
 <section class="page-selection skills" id="skills">
-<div class = "container-fluid text-center">
-  <h1 class = "ml-auto masthead-heading mb-2 text-black"> Languages</h1>
-  <img src="Images/CSharp.png" class = "P-3" alt="C# image" height="150" >
-  <img src="Images/C++.png" class = "P-3" alt="C++ Image" height="150">
+  <div>
+<div class = "row text-center">
+
+  <h1 class = "ml-auto masthead-heading mb-2 text-black"> Languages
+  </h1>
+  <div class="pic1">
+    <img src="Images/CSharp.png"  alt="C# image" height="150" >
+  </div>
+  <div class="pic2">
+    <img src="Images/C++.png"   alt="C++ Image" height="150">
+  </div>
 </div>
 
 <div class = "container-fluid text-center">
